@@ -28,6 +28,7 @@ body {
   -ms-flex: 30%;
   flex: 40%;
   padding: 15px;
+  padding-bottom: 165px;
 }
 
 .main h2{  
@@ -44,8 +45,10 @@ body {
   padding: 15px;
 }
 
-.a {
-    text-align: center;
+a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 a:link, a:visited {
