@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
 body {
   margin: 5;
 }
@@ -5,15 +7,16 @@ body {
 .header {
   padding: 10px;
   text-align: center;
-  background: rgba(255, 108, 92, 0.63);
+  background: rgb(255 197 110);
   color: white;
 }
 
 .header h1 {
   font-size: 30px;
-  font-family: Milonga;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .row {  
@@ -23,13 +26,13 @@ body {
   flex-wrap: wrap;
 }
 
-.side {
+/*.side {
   text-align: center;
   -ms-flex: 30%;
   flex: 40%;
   padding: 15px;
   padding-bottom: 145px;
-}
+}*/
 
 .main h2{  
   font-family: Rubik;
@@ -39,15 +42,16 @@ body {
 }
 
 .main {   
+
   -ms-flex: 40%; 
   flex: 40%;
   background-color: #f1f1f1;
   padding: 15px;
 }
 
-a {
+/*a {
   display: block;
-  margin: 0 auto;
+  margin: 0 54px;
   text-align: center;
 }
 
@@ -55,13 +59,28 @@ a:link, a:visited {
   background-color: #f1f1f1;
   color: black;
   border: 2px solid black;
-  padding: 10px 30px;
+  padding: 18px 8px;
   text-decoration: none;
-}
+}*/
 
 a:hover, a:active {
-  background-color: rgba(255, 108, 92, 0.60);
-  color: white;
+  border: 2px solid black;
+}
+
+.portfolio__cases{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-case{
+  margin: 50px;
+  width: 300px;
+}
+
+.portfolio-case img {
+    max-width: 100%;
+    height: auto;
 }
 
 .footer h2{
